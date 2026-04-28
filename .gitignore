@@ -1,2 +1,6 @@
-.vscode/*
-build/*
+build/
+myenv/
+__pycache__/
+*.pyc
+*.mp4
+*.mkv
