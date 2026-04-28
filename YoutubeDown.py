@@ -19,8 +19,8 @@ def download_video(url: str):
         print(f"Vous voulez télécharger la vidéo : {title}")
 
         # Double validation: l'utilisateur confirme explicitement avant de consommer la bande passante.
-        confirm = input("Confirmer le téléchargement ? (o/n) : ").strip().lower()
-        if confirm == 'o':
+        confirm = input("Confirmer le téléchargement ? (O/n) : ").strip().lower()
+        if confirm == 'o' or confirm == '':
             print("Téléchargement...")
             ydl.download([url])
             print("✓ Téléchargement terminé !")
