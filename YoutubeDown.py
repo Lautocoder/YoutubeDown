@@ -4,10 +4,13 @@ import os
 BASE_YOUTUBE_URL = 'https://www.youtube.com'
 
 def download_video(url: str):
+    # Créer le dossier download s'il n'existe pas
+    os.makedirs('download', exist_ok=True)
+    
     # Options yt-dlp: on privilégie la meilleure vidéo/audio MP4 et on fusionne le résultat en un seul fichier.
     ydl_opts = {
         'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
-        'outtmpl': '%(title)s.%(ext)s',
+        'outtmpl': 'download/%(title)s.%(ext)s',
         'merge_output_format': 'mp4',
         'progress_hooks': [progress_hook],
     }

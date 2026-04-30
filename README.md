@@ -7,7 +7,7 @@ Un téléchargeur de vidéos YouTube simple et convivial.
 1. Télécharge `YoutubeDown.exe` depuis la section [Releases](../../releases)
 2. Double-clique sur l'exe pour lancer le programme
 3. Saisis l'URL YouTube et valide
-4. La vidéo sera téléchargée dans le même dossier
+4. La vidéo sera téléchargée dans un sous-dossier download
 
 **Prérequis :** Aucun ! L'exe embarque tout ce qu'il faut.
 
