@@ -17,7 +17,7 @@ Un téléchargeur de vidéos YouTube simple et convivial.
 
 ```bash
 # Clone le repo
-git clone [https://github.com/Lautocoder/YoutubeDown.git](https://github.com/Lautocoder/YoutubeDown.git)
+git clone https://github.com/Lautocoder/YoutubeDown.git
 cd YoutubeDown
 
 # Crée l'environnement virtuel
